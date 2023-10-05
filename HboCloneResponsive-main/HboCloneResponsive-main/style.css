@@ -1,0 +1,59 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+  
+*, :after, :before {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body::before{
+    display:block;
+    content:'';
+    height:60px;
+
+}
+
+
+
+.navbar-brand img{
+    width:4rem;
+}
+
+.main-image img{
+    width:100%;
+}
+.text-light{
+    background-color: #a402f7;
+}
+
+
+.footer-brand,.footer-text{
+    display: flex;
+    justify-content: center;
+}
+.col-12{
+    text-align: center;
+    
+}
+.col-12 a{
+    color:white ;
+    text-decoration: none;
+    font-size: small;
+}
+.col-12 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.copyright{
+    margin:1rem 0;
+    color:white;
+}
+@media(min-width:768px){
+    .news-input{
+        width:50%;
+    }
+} 
